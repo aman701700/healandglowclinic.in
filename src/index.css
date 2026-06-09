@@ -1,0 +1,121 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-crimson: #8B1A3A;
+    --color-gold: #C9A227;
+    --color-gold-light: #E8C86A;
+    --color-olive: #4D6A1E;
+    --color-dark: #0D0D0D;
+    --color-card: #1A1A1A;
+    --color-surface: #222222;
+    --color-border: #2E2E2E;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-dark-bg text-cream font-body antialiased;
+    background-color: #0D0D0D;
+    color: #FAF7F2;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  ::selection {
+    background: rgba(201, 162, 39, 0.3);
+    color: #FAF7F2;
+  }
+
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #1A1A1A;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #8B1A3A;
+    border-radius: 3px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #C9A227;
+  }
+}
+
+@layer components {
+  .gold-divider {
+    @apply w-16 h-0.5 bg-gradient-to-r from-gold/0 via-gold to-gold/0;
+  }
+
+  .section-label {
+    @apply font-accent text-gold text-xs tracking-[0.3em] uppercase mb-3;
+  }
+
+  .section-title {
+    @apply font-display text-4xl md:text-5xl font-light text-cream leading-tight;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center gap-2 px-7 py-3.5 bg-crimson text-cream font-body font-medium text-sm tracking-wider uppercase
+           border border-crimson/50 rounded-sm
+           hover:bg-crimson-700 hover:border-gold/40 hover:shadow-crimson
+           transition-all duration-300;
+  }
+
+  .btn-gold {
+    @apply inline-flex items-center gap-2 px-7 py-3.5 bg-transparent text-gold font-body font-medium text-sm tracking-wider uppercase
+           border border-gold/60 rounded-sm
+           hover:bg-gold hover:text-dark-bg hover:border-gold hover:shadow-gold
+           transition-all duration-300;
+  }
+
+  .btn-ghost {
+    @apply inline-flex items-center gap-2 px-6 py-3 text-cream/80 font-body text-sm tracking-wider uppercase
+           border border-white/10 rounded-sm
+           hover:text-gold hover:border-gold/40
+           transition-all duration-300;
+  }
+
+  .card-dark {
+    @apply bg-dark-card border border-dark-border rounded-sm p-6
+           hover:border-gold/20 hover:shadow-card
+           transition-all duration-300;
+  }
+
+  .gold-shimmer {
+    background: linear-gradient(90deg, #C9A227, #E8C86A, #C9A227);
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    animation: shimmer 3s linear infinite;
+  }
+
+  .ornament-line {
+    @apply flex items-center gap-4;
+  }
+  .ornament-line::before,
+  .ornament-line::after {
+    content: '';
+    @apply flex-1 h-px bg-gradient-to-r from-transparent via-gold/40 to-transparent;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
