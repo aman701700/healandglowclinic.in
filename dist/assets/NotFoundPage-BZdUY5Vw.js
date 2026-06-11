@@ -1,6 +1,0 @@
-import{g as a,j as e,h as s,L as t}from"./index-D52SXSBW.js";/**
- * @license lucide-react v0.307.0 - ISC
- *
- * This source code is licensed under the ISC license.
- * See the LICENSE file in the root directory of this source tree.
- */const n=a("Home",[["path",{d:"m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z",key:"y5dka4"}],["polyline",{points:"9 22 9 12 15 12 15 22",key:"e2us08"}]]);function o(){return e.jsx("div",{className:"min-h-screen flex items-center justify-center px-4 bg-dark-bg",children:e.jsx("div",{className:"text-center",children:e.jsxs(s.div,{initial:{opacity:0,scale:.8},animate:{opacity:1,scale:1},transition:{duration:.6},children:[e.jsx("div",{className:"font-display text-[120px] md:text-[180px] font-light leading-none text-dark-surface select-none",children:"404"}),e.jsx("div",{className:"gold-divider mx-auto mb-6"}),e.jsx("h1",{className:"font-display text-3xl text-cream mb-3",children:"Page Not Found"}),e.jsx("p",{className:"text-cream/50 text-sm mb-8 max-w-sm mx-auto",children:"The page you're looking for doesn't exist or may have been moved."}),e.jsxs("div",{className:"flex gap-3 justify-center",children:[e.jsxs(t,{to:"/",className:"btn-primary",children:[e.jsx(n,{size:16})," Back to Home"]}),e.jsx(t,{to:"/contact",className:"btn-gold",children:"Contact Us"})]})]})})})}export{o as default};
