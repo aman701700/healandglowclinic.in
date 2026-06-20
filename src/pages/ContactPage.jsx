@@ -31,7 +31,7 @@ export default function ContactPage() {
     <>
       <Helmet>
         <title>Contact & Book Appointment | Heal & Glow Clinic Delhi – Dr. Nadeem Ahmad</title>
-        <meta name="description" content="Book an appointment at Heal & Glow Clinic, Lajpat Nagar, Delhi. Call +91 98765 43210 or WhatsApp for quick booking." />
+        <meta name="description" content="Book an appointment at Heal & Glow Clinic, Aligarh. Call +91 98371 74406 or WhatsApp for quick booking." />
       </Helmet>
 
       {/* Hero */}
@@ -64,9 +64,9 @@ export default function ContactPage() {
         <div className="max-w-7xl mx-auto px-4">
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
             {[
-              { icon: Phone, label: 'Call Us', value: '+91 98765 43210', href: 'tel:+919876543210', color: 'text-blue-400' },
-              { icon: MessageCircle, label: 'WhatsApp', value: '+91 98765 43210', href: 'https://wa.me/919876543210', color: 'text-green-400' },
-              { icon: Mail, label: 'Email', value: 'info@healandglowclinic.com', href: 'mailto:info@healandglowclinic.com', color: 'text-gold' },
+              { icon: Phone, label: 'Call Us', value: '+91 98371 74406', href: 'tel:+919837174406', color: 'text-blue-400' },
+              { icon: MessageCircle, label: 'WhatsApp', value: '+91 98371 74406', href: 'https://wa.me/919837174406', color: 'text-green-400' },
+              { icon: Mail, label: 'Email', value: 'drnadeemahmad3116@gmail.com', href: 'mailto:drnadeemahmad3116@gmail.com', color: 'text-gold' },
             ].map(({ icon: Icon, label, value, href, color }) => (
               <a key={label} href={href} className="card-dark flex items-center gap-4 hover:border-gold/20 group">
                 <Icon size={20} className={`${color} flex-shrink-0`} />
@@ -173,9 +173,8 @@ export default function ContactPage() {
                     <div>
                       <h3 className="font-body text-sm font-medium text-cream mb-1">Clinic Address</h3>
                       <p className="text-cream/50 text-sm leading-relaxed">
-                        B-47, Second Floor<br />
-                        Lajpat Nagar II<br />
-                        New Delhi – 110024
+                        Near Shah Residency, Near Firoz Hospital<br />
+                        Medical Road, Aligarh
                       </p>
                       <a
                         href="https://maps.google.com"
@@ -217,9 +216,9 @@ export default function ContactPage() {
                     />
                     <div className="absolute inset-0 flex flex-col items-center justify-center">
                       <MapPin size={32} className="text-crimson mb-2" />
-                      <p className="text-cream/60 text-sm">Lajpat Nagar II, New Delhi</p>
+                      <p className="text-cream/60 text-sm">Medical Road, Aligarh</p>
                       <a
-                        href="https://maps.google.com/?q=Lajpat+Nagar+II+New+Delhi"
+                        href="https://maps.google.com/?q=Near+Shah+Residency+Near+Firoz+Hospital+Aligarh"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="mt-3 text-gold text-xs border border-gold/30 px-3 py-1.5 rounded-sm hover:bg-gold/10 transition-colors"
@@ -232,7 +231,7 @@ export default function ContactPage() {
 
                 {/* WhatsApp CTA */}
                 <a
-                  href="https://wa.me/919876543210?text=Hi%2C%20I%20want%20to%20book%20an%20appointment."
+                  href="https://wa.me/919837174406?text=Hi%2C%20I%20want%20to%20book%20an%20appointment."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-4 card-dark border-green-500/20 hover:border-green-500/40 hover:bg-green-500/5 transition-all group"

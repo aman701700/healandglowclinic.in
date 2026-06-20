@@ -138,7 +138,7 @@ export default function ConditionsPage({ onBooking }) {
           <p className="section-label mb-4">Don't See Your Condition?</p>
           <h2 className="font-display text-3xl text-cream mb-3">We likely treat it.</h2>
           <p className="text-cream/50 mb-6 text-sm max-w-lg mx-auto">
-            With 20+ years of clinical experience across dozens of specialities, Dr. Ahmad has 
+            With 29+ years of clinical experience across dozens of specialties, Dr. Ahmad has 
             encountered and treated virtually every musculoskeletal and neurological condition.
           </p>
           <button onClick={onBooking} className="btn-primary">

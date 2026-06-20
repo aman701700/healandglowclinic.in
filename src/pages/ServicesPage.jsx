@@ -19,7 +19,7 @@ export default function ServicesPage({ onBooking }) {
     <>
       <Helmet>
         <title>Our Services – Physiotherapy, Slimming & Beauty | Heal & Glow Clinic Delhi</title>
-        <meta name="description" content="Explore 12+ expert services at Heal & Glow Clinic: physiotherapy, sports rehab, dry needling, cupping, body slimming, beauty treatments and more." />
+        <meta name="description" content="Explore 12+ expert services at Heal & Glow Clinic: physiotherapy, sports rehab, cupping, body slimming, beauty treatments and more." />
       </Helmet>
 
       {/* Hero */}

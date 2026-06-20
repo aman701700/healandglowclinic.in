@@ -7,11 +7,10 @@ import { statsData } from '../data';
 import drNadeem from "../../public/dr_nadeem.png"
 
 const qualifications = [
-  { year: '2004', title: 'BPT – Bachelor of Physiotherapy', institute: 'All India Institute of Medical Sciences (AIIMS), New Delhi' },
+  { year: '1997', title: 'BPT – Bachelor of Physiotherapy', institute: 'JNMC, Aligarh Muslim University' },
   { year: '2006', title: 'MPT – Master of Physiotherapy (Orthopedics)', institute: 'Delhi University, Faculty of Allied Health Sciences' },
   { year: '2009', title: 'Fellowship in Sports Medicine & Rehabilitation', institute: 'International Federation of Sports Medicine' },
   { year: '2012', title: 'Certification in Neurological Rehabilitation', institute: 'Bobath Centre London (UK)' },
-  { year: '2015', title: 'Advanced Dry Needling Certification', institute: 'INMT Institute, USA' },
   { year: '2019', title: 'Diploma in Aesthetic Medicine & Slimming', institute: 'AESMD India' },
 ];
 
@@ -23,11 +22,10 @@ const philosophy = [
 ];
 
 const achievements = [
-  '20+ years of clinical physiotherapy practice in Delhi NCR',
+  '29+ years of clinical physiotherapy practice in Delhi NCR',
   'Treated 8,000+ patients across 40+ conditions',
   'Sports physio for national-level athletes and IPL cricket teams',
   'Guest faculty at multiple physiotherapy institutions in Delhi',
-  'Published research on dry needling efficacy in chronic pain',
   'Awarded "Best Physiotherapist 2023" by Delhi Medical Association',
   'Pioneer of the 3-in-1 Physiotherapy + Slimming + Beauty model in India',
 ];
@@ -37,7 +35,7 @@ export default function AboutPage({ onBooking }) {
     <>
       <Helmet>
         <title>About Dr. Nadeem Ahmad – Senior Physiotherapist | Heal & Glow Clinic Delhi</title>
-        <meta name="description" content="Learn about Dr. Nadeem Ahmad, Senior Physiotherapist with 20+ years experience. Founder of Heal & Glow Clinic, Delhi's leading wellness destination." />
+        <meta name="description" content="Learn about Dr. Nadeem Ahmad, Senior Physiotherapist with 29+ years experience. Founder of Heal & Glow Clinic, Delhi's leading wellness destination." />
       </Helmet>
 
       {/* Hero */}
@@ -96,13 +94,12 @@ export default function AboutPage({ onBooking }) {
                 A Lifetime Dedicated to Healing
               </h2>
               <p className="text-cream/60 leading-relaxed mb-4">
-                Dr. Nadeem Ahmad's journey in physiotherapy began over two decades ago with a simple 
-                conviction: that the human body, given the right support, has an extraordinary capacity to heal.
+                Dr. Nadeem Ahmad is a trained physiotherapist and professional trainer with more than 29 years of experience.
+                He combines clinical precision with a practical, results-driven approach to rehabilitation and performance training.
               </p>
               <p className="text-cream/60 leading-relaxed mb-4">
-                Graduating from AIIMS New Delhi with distinction, Dr. Ahmad went on to pursue advanced 
-                training in orthopedic, neurological, and sports physiotherapy at institutions in India, 
-                the UK, and the USA. His breadth of knowledge is matched only by his depth of compassion.
+                A proud graduate of JNMC AMU Aligarh in 1997, Dr. Ahmad has guided patients through recovery, strength building,
+                and long-term wellness using evidence-based physiotherapy, sports conditioning, and personalized care.
               </p>
               <p className="text-cream/60 leading-relaxed mb-8">
                 In 2020, he founded Heal & Glow Clinic — a first-of-its-kind facility that integrates 

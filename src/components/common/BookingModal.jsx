@@ -18,7 +18,6 @@ const services = [
   'Sports Injury Rehab',
   'Post-Surgical Rehab',
   'Neurological Rehabilitation',
-  'Dry Needling',
   'Cupping Therapy',
   'Manual Therapy',
   'Body Slimming',

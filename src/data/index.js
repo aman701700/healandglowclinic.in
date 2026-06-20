@@ -10,7 +10,7 @@ export const servicesData = [
     title: 'Physiotherapy',
     subtitle: 'Expert Assessment & Treatment',
     shortDesc: 'Comprehensive diagnosis and treatment of musculoskeletal disorders using evidence-based techniques.',
-    fullDesc: 'Our physiotherapy services cover the full spectrum of musculoskeletal conditions. Dr. Nadeem Ahmad applies 20+ years of clinical expertise to create personalized treatment plans that restore function, reduce pain, and prevent recurrence.',
+    fullDesc: 'Our physiotherapy services cover the full spectrum of musculoskeletal conditions. Dr. Nadeem Ahmad applies 29+ years of clinical expertise to create personalized treatment plans that restore function, reduce pain, and prevent recurrence.',
     image: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=600&q=80',
     features: ['Manual Therapy', 'Exercise Prescription', 'Postural Correction', 'Pain Management'],
     duration: '45–60 min',
@@ -57,20 +57,6 @@ export const servicesData = [
     features: ['Stroke Rehabilitation', 'Balance & Gait Training', 'Spasticity Management', 'Functional Training'],
     duration: '60–90 min',
     color: '#8B1A3A',
-  },
-  {
-    id: 5,
-    slug: 'dry-needling',
-    category: 'Pain Management',
-    icon: '✦',
-    title: 'Dry Needling',
-    subtitle: 'Trigger Point Therapy',
-    shortDesc: 'Advanced intramuscular stimulation technique targeting myofascial trigger points for rapid pain relief.',
-    fullDesc: 'Dry needling involves inserting fine needles into trigger points to release muscle tension, improve blood flow, and reduce pain. Highly effective for chronic pain, headaches, and muscle tightness.',
-    image: 'https://images.unsplash.com/photo-1519824145371-296894a0daa9?w=600&q=80',
-    features: ['Trigger Point Release', 'Chronic Pain Relief', 'Muscle Relaxation', 'Improved Circulation'],
-    duration: '30–45 min',
-    color: '#C9A227',
   },
   {
     id: 6,
@@ -230,15 +216,7 @@ export const testimonialsData = [
     rating: 5,
     avatar: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=100&q=80',
   },
-  {
-    id: 5,
-    name: 'Vikram Singh',
-    role: 'Army Officer, 42',
-    condition: 'Sciatica & Disc Herniation',
-    quote: 'Sciatica had me unable to walk without support. The dry needling and manual therapy combination was a game-changer. Within 2 weeks I was standing straight. Absolutely world-class treatment.',
-    rating: 5,
-    avatar: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?w=100&q=80',
-  },
+
   {
     id: 6,
     name: 'Meena Joshi',
@@ -278,18 +256,7 @@ export const blogData = [
     image: 'https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=600&q=80',
     tags: ['Sports', 'Injury Prevention', 'Rehabilitation'],
   },
-  {
-    id: 3,
-    slug: 'dry-needling-vs-acupuncture',
-    title: 'Dry Needling vs Acupuncture: What\'s the Difference?',
-    excerpt: 'Many patients confuse dry needling with acupuncture. While both use fine needles, the philosophy, technique, and scientific basis are completely different. Here\'s what you need to know.',
-    category: 'Treatment',
-    author: 'Dr. Nadeem Ahmad',
-    date: 'April 30, 2026',
-    readTime: '5 min read',
-    image: 'https://images.unsplash.com/photo-1519824145371-296894a0daa9?w=600&q=80',
-    tags: ['Dry Needling', 'Pain Management', 'Treatment'],
-  },
+
   {
     id: 4,
     slug: 'holistic-body-transformation',
@@ -308,7 +275,7 @@ export const blogData = [
 // STATS DATA
 // ============================================================
 export const statsData = [
-  { value: 20, suffix: '+', label: 'Years Experience' },
+  { value: 29, suffix: '+', label: 'Years Experience' },
   { value: 8000, suffix: '+', label: 'Patients Treated' },
   { value: 98, suffix: '%', label: 'Satisfaction Rate' },
   { value: 12, suffix: '+', label: 'Specialisations' },
@@ -321,7 +288,7 @@ export const whyUsData = [
   {
     icon: '🏆',
     title: 'Senior Specialist',
-    desc: 'Dr. Nadeem Ahmad brings 20+ years of specialized experience across physiotherapy, sports rehab, and neurological care.',
+    desc: 'Dr. Nadeem Ahmad brings 29+ years of specialized experience across physiotherapy, sports rehab, and neurological care.',
   },
   {
     icon: '🔬',

@@ -62,7 +62,7 @@ function HeroSection({ onBooking }) {
             transition={{ duration: 0.7, delay: 0.5 }}
             className="text-cream/70 text-lg md:text-xl leading-relaxed mb-3 max-w-xl"
           >
-            Under Dr. Nadeem Ahmad's expert care — 20 years of transforming lives through
+            Under Dr. Nadeem Ahmad's expert care — 29 years of transforming lives through
             physiotherapy, slimming, and beauty.
           </motion.p>
 
@@ -104,7 +104,7 @@ function HeroSection({ onBooking }) {
             className="flex items-center gap-6 mt-10 pt-8 border-t border-white/10"
           >
             {[
-              { icon: Award, text: '20+ Years Expert' },
+              { icon: Award, text: '29+ Years Expert' },
               { icon: Users, text: '8000+ Patients' },
               { icon: Heart, text: '98% Satisfaction' },
             ].map(({ icon: Icon, text }) => (
@@ -220,7 +220,7 @@ function AboutSnippet() {
               </div>
               {/* Floating badge */}
               <div className="absolute -bottom-5 -right-5 bg-dark-card border border-gold/30 rounded-sm p-4 shadow-card max-w-[180px]">
-                <div className="font-display text-3xl text-gold font-light">20+</div>
+                <div className="font-display text-3xl text-gold font-light">29+</div>
                 <div className="text-cream/60 text-xs tracking-wider mt-1 uppercase font-body">Years of Excellence</div>
               </div>
               {/* Gold frame accent */}
@@ -239,9 +239,9 @@ function AboutSnippet() {
               <span className="text-gold/80 text-3xl md:text-4xl italic font-light">Senior Physiotherapist</span>
             </h2>
             <p className="text-cream/60 leading-relaxed mb-5">
-              With over two decades of clinical experience, Dr. Nadeem Ahmad has established himself as
-              one of Delhi's most trusted physiotherapists. His patient-first philosophy and evidence-based
-              approach have transformed thousands of lives.
+              With over 29 years of experience as a professional physiotherapist and trainer, Dr. Nadeem Ahmad
+              has established himself as one of Delhi's most trusted rehabilitation specialists. His patient-first
+              philosophy and evidence-based approach continue to transform thousands of lives.
             </p>
             <p className="text-cream/60 leading-relaxed mb-8">
               Beyond physiotherapy, Dr. Ahmad's vision led to the creation of Heal & Glow — a holistic
@@ -416,7 +416,7 @@ function CTABanner({ onBooking }) {
               Book Free Consultation
               <ArrowRight size={16} />
             </button>
-            <a href="https://wa.me/919876543210" className="btn-gold">
+            <a href="https://wa.me/919837174406" className="btn-gold">
               WhatsApp Us
             </a>
           </div>
@@ -432,7 +432,7 @@ export default function HomePage({ onBooking }) {
     <>
       <Helmet>
         <title>Heal & Glow Clinic Delhi | Physiotherapy · Slimming · Beauty | Dr. Nadeem Ahmad</title>
-        <meta name="description" content="Delhi's premier clinic for physiotherapy, slimming, and beauty. Dr. Nadeem Ahmad – 20+ years expert. Book your appointment today." />
+        <meta name="description" content="Delhi's premier clinic for physiotherapy, slimming, and beauty. Dr. Nadeem Ahmad – 29+ years expert. Book your appointment today." />
         <meta property="og:title" content="Heal & Glow Clinic Delhi | Dr. Nadeem Ahmad" />
         <meta property="og:description" content="Expert physiotherapy, body slimming, and beauty treatments. 8000+ patients transformed." />
       </Helmet>

@@ -8,7 +8,6 @@ const footerLinks = {
     { label: 'Sports Rehab', to: '/services' },
     { label: 'Body Slimming', to: '/services' },
     { label: 'Beauty Treatments', to: '/services' },
-    { label: 'Dry Needling', to: '/services' },
     { label: 'Cupping Therapy', to: '/services' },
   ],
   'Quick Links': [
@@ -25,7 +24,7 @@ const socials = [
   { icon: Instagram, href: '#', label: 'Instagram', color: 'hover:text-pink-400' },
   { icon: Facebook, href: '#', label: 'Facebook', color: 'hover:text-blue-400' },
   { icon: Youtube, href: '#', label: 'YouTube', color: 'hover:text-red-400' },
-  { icon: MessageCircle, href: 'https://wa.me/919876543210', label: 'WhatsApp', color: 'hover:text-green-400' },
+  { icon: MessageCircle, href: 'https://wa.me/919837174406', label: 'WhatsApp', color: 'hover:text-green-400' },
 ];
 
 export default function Footer() {
@@ -42,8 +41,8 @@ export default function Footer() {
               Book your consultation with Dr. Nadeem Ahmad today.
             </p>
           </div>
-          <div className="flex gap-3 flex-shrink-0">
-            <a href="https://wa.me/919876543210" className="btn-gold text-xs py-2.5 px-5">
+            <div className="flex gap-3 flex-shrink-0">
+            <a href="https://wa.me/919837174406" className="btn-gold text-xs py-2.5 px-5">
               WhatsApp Now
             </a>
             <Link to="/contact" className="btn-ghost text-xs py-2.5 px-5 border-white/20 hover:border-gold/40">
@@ -69,7 +68,7 @@ export default function Footer() {
             </div>
             <p className="text-cream/50 text-sm leading-relaxed mb-5">
               Delhi's premier destination for physiotherapy, slimming, and beauty. 
-              Led by Dr. Nadeem Ahmad with 20+ years of expertise.
+              Led by Dr. Nadeem Ahmad with 29+ years of expertise.
             </p>
             <div className="flex gap-3">
               {socials.map(({ icon: Icon, href, label, color }) => (
@@ -112,19 +111,19 @@ export default function Footer() {
               <li className="flex gap-3">
                 <MapPin size={15} className="text-gold/60 flex-shrink-0 mt-0.5" />
                 <span className="text-cream/50 text-sm leading-relaxed">
-                  B-47, Second Floor, Lajpat Nagar II<br />New Delhi – 110024
+                  Near Shah Residency, Near Firoz Hospital<br />Medical Road, Aligarh
                 </span>
               </li>
               <li className="flex gap-3">
                 <Phone size={15} className="text-gold/60 flex-shrink-0 mt-0.5" />
-                <a href="tel:+919876543210" className="text-cream/50 text-sm hover:text-gold transition-colors">
-                  +91 98765 43210
+                <a href="tel:+919837174406" className="text-cream/50 text-sm hover:text-gold transition-colors">
+                  +91 98371 74406
                 </a>
               </li>
               <li className="flex gap-3">
                 <Mail size={15} className="text-gold/60 flex-shrink-0 mt-0.5" />
-                <a href="mailto:info@healandglowclinic.com" className="text-cream/50 text-sm hover:text-gold transition-colors">
-                  info@healandglowclinic.com
+                <a href="mailto:drnadeemahmad3116@gmail.com" className="text-cream/50 text-sm hover:text-gold transition-colors">
+                  drnadeemahmad3116@gmail.com
                 </a>
               </li>
               <li className="flex gap-3">

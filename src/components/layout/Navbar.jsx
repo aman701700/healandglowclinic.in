@@ -94,11 +94,11 @@ export default function Navbar({ onBooking }) {
             {/* CTA */}
             <div className="hidden lg:flex items-center gap-3">
               <a
-                href="tel:+919876543210"
+                href="tel:+919837174406"
                 className="flex items-center gap-1.5 text-cream/60 hover:text-gold text-sm transition-colors"
               >
                 <Phone size={14} />
-                <span className="font-mono text-xs tracking-wider">+91 98765 43210</span>
+                <span className="font-mono text-xs tracking-wider">+91 98371 74406</span>
               </a>
               <button
                 onClick={onBooking}
@@ -169,11 +169,11 @@ export default function Navbar({ onBooking }) {
 
               <div className="p-5 border-t border-dark-border space-y-3">
                 <a
-                  href="tel:+919876543210"
+                  href="tel:+919837174406"
                   className="flex items-center gap-2 text-cream/60 hover:text-gold text-sm transition-colors"
                 >
                   <Phone size={14} />
-                  <span>+91 98765 43210</span>
+                  <span>+91 98371 74406</span>
                 </a>
                 <button
                   onClick={() => { setMobileOpen(false); onBooking?.(); }}
